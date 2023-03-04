@@ -4,8 +4,8 @@
 ](http://img.youtube.com/vi/i-4in14x5y0/0.jpg)](https://www.youtube.com/watch?v=i-4in14x5y0)
 
 ```mermaid
-    graph TD;
-        Start-->負けない事;
+    graph TB;
+        S([Start])-->負けない事;
             負けない事-->投げ出さない事-->逃げ出さない事-->信じ抜く事;
             信じ抜く事-->駄目になりそうな時-->それが一番大事;
             信じ抜く事-->涙見せてもいいよ-->それを忘れなければ;
@@ -33,7 +33,7 @@
                 淋しい-->Wow...;
                 せつない-->Wow...;
                     Wow... -->でも-->負けない事;
-        それを忘れなければ-->End;
+        それを忘れなければ-->E([End]);
 ```
 
 このプロジェクトは、[こちらのアイデア](https://youkoseki.com/soregadaiji/)を元にしています
